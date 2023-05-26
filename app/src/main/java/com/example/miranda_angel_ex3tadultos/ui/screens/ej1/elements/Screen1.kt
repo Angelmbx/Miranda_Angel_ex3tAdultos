@@ -30,7 +30,7 @@ fun Screen1() {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(text =  "Contadores") /*stringResource(id = R.string.app_name)) */},
+                title = { Text(text =  "Contadores") /* stringResource(id = R.string.app_name)) */},
                 actions = {
                     if (ContadoresViewModel.numContadores != 0) {
                         IconButton(onClick = { ContadoresViewModel.onRefreshButton() }) {
